@@ -158,7 +158,7 @@ def models():
 ]
 
 def main():
-    app.run(host="0.0.0.0", port=1337, debug=True)
+    app.run(host="0.0.0.0", port=7860, debug=True)
 
 
 if __name__ == "__main__":
