@@ -152,6 +152,11 @@ def embeddings():
   }
   }
 
+@app.route("/models", methods=['get'])
+"id": "gpt-4"
+def models():
+]
+
 def main():
     app.run(host="0.0.0.0", port=1337, debug=True)
 
